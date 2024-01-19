@@ -1,0 +1,27 @@
+.support-agent-list {
+  width: 60%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.agent-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.agent-details {
+  flex: 1;
+}
+
+.agent-item:hover {
+  background-color: #f0f0f0;
+}
