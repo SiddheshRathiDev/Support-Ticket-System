@@ -41,33 +41,13 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/your-username/support-ticket-system.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd support-ticket-system
-Install dependencies:
-
-bash
-Copy code
-npm install
-Create a .env file in the project root and add your MongoDB connection details:
-
-env
-Copy code
-MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>/<database>?retryWrites=true&w=majority
-PORT=3000
-Start the Node.js server:
-
-bash
-Copy code
-npm start
-The server should now be running on http://localhost:3000.
 
 API Endpoints
+
 Support Agents
 GET /api/support-agents: Get all support agents.
 POST /api/support-agents: Create a new support agent.
+
 Support Tickets
 GET /api/support-tickets: Get all support tickets.
 POST /api/support-tickets: Create a new support ticket.
