@@ -42,12 +42,6 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/your-username/support-ticket-system.git
 
-API Endpoints
-
-Support Agents
-GET /api/support-agents: Get all support agents.
-POST /api/support-agents: Create a new support agent.
-
 Support Tickets
 GET /api/support-tickets: Get all support tickets.
 POST /api/support-tickets: Create a new support ticket.
